@@ -29,6 +29,7 @@ function answerCheck() {
     if (question5 == "A") {
         score += 1;
     }
+    return score;
 }
 
 //  timerdisplay and the variables below are all for the clockTimer function
@@ -46,6 +47,7 @@ function clockTimer() {
     if (clockCounter === timeLeft) {
         endQuiz();
         clearInterval(timerStart);
+        document.getElementById("submitAnswers").style.visibility = "hidden";
     }
 }
 var timerStart = setInterval(clockTimer, 1000);
@@ -54,6 +56,7 @@ var timerStart = setInterval(clockTimer, 1000);
 function endQuiz() {
     answerCheck();
     clearInterval(timerStart);
+    // hides submit button
     document.getElementById("gamePrize").style.visibility = "visible";
     $("#gamePrize").text("you got " + score + " correct out of 5")
 
