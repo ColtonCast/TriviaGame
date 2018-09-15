@@ -1,0 +1,39 @@
+.containmentz {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("../images/bkground.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: repeat;
+    margin-top: 40px;
+}
+
+.Qcontainer {
+    background-color: black;
+    opacity: .7;
+}
+
+
+.Wtitle {
+    color: white;
+}
+.Wtitle p {
+    color: cyan;
+    font-size: 23px;
+}
+
+#gamePrize {
+    visibility: hidden;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#timerDisplay {
+    color:white;
+}
+
+#submitAnswers {
+    visibility: visible;
+}

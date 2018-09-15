@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Trivia Time!</title>
+            <link rel="stylesheet" href="assets/css/reset.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <meta name="viewport" content="width=device-width">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body class="containmentz">
+        <h1 class="Wtitle"> Quacky Caraazy Quiz!!</h1>
+        <div>
+            <h3 id="timerDisplay"></h3>
+        </div>
+        <div class="Qcontainer">
+            <form class="Wtitle" id="question1">
+                <p> What is the day today?</p>
+                <input type="radio" name="question1" value="0">Sunday
+                <br>
+                <input type="radio" name="question1" value="1">Monday
+                <br>
+                <input type="radio" name="question1" value="2">Tuesday
+                <br>
+                <input type="radio" name="question1" value="3">Wednesday
+                <br>
+                <input type="radio" name="question1" value="4">Thursday
+                <br>
+                <input type="radio" name="question1" value="5">Friday
+                <br>
+                <input type="radio" name="question1" value="6">Saturday
+                <br>
+            </form>
+            <form class="Wtitle" id="question2">
+                <p> Which caliber has a higher chamber pressure?</p>
+                <input type="radio" name="question2" value="A">7.62x51 NATO
+                <br>
+                <input type="radio" name="question2" value="B">.308 Winchester
+                <br>
+            </form>
+            <form class="Wtitle" id="question3">
+                <p> Two Blue berry muffins are in an oven. The first muffin says "is it me or is it hot in here" the second muffin says: </p>
+                <input type="radio" name="question3" value="A">"Muh butters a meltin!"
+                <br>
+                <input type="radio" name="question3" value="B">"I can berry take it!"
+                <br>
+                <input type="radio" name="question3" value="C">"Omg a talking muffin!"
+                <br>
+                <input type="radio" name="question3" value="D">"Don't talk to me or my batter ever again!"
+                <br>
+            </form>
+            <form class="Wtitle" id="question4">
+                <p> The distillers lead singer Brody Dalle was born in which country?</p>
+                <input type="radio" name="question4" value="A">New Zealand
+                <br>
+                <input type="radio" name="question4" value="B">The UK
+                <br>
+                <input type="radio" name="question4" value="C">Scotland
+                <br>
+                <input type="radio" name="question4" value="D">Australia
+                <br>
+            </form>
+            <form class="Wtitle" id="question5">
+                <p> Which sniper rifle holds the current world record for longest confirmed kill shot?</p>
+                <input type="radio" name="question5" value="A">McMillan Tac-50
+                <br>
+                <input type="radio" name="question5" value="B">Accuracy International L115A3
+                <br>
+                <input type="radio" name="question5" value="C">Barrett M82A1
+                <br>
+                <input type="radio" name="question5" value="D">Denel NTW-14.5
+                <br>
+            </form>
+            <input type="button" id="submitAnswers" value="All done">
+            <div id="gamePrize">
+                <p> lets see how well you did!</p>
+            </div>
+            </div>
+        </div>
+    </body>
+    <script src="assets/javascript/game.js"></script>
+</html>
